@@ -1,6 +1,9 @@
 header { 
     background-color: #ffffff;
     border-color: #cccccc;
+    padding: inherit;
+    
+	
 }
 
 p {
@@ -9,14 +12,55 @@ p {
 
 }
 
-h1, h2 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    float: left;
+	font-size: 32px;
+	margin: 0 0 0 24px;
+    
 }
 
+h2 {
+ 
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+
+
 body {
-    background-image: url("C:\Users\Katie!\Desktop\Basic-Portfolio\assets\images\light_honeycomb");
+    background-image: url("../images/light_honeycomb.png");
+    
+}
+
+nav li {
+    display: inherit;
+    margin: 0px;
+    
+}
+
+a {
+    color: #777777;
+    float: right;
+}
+a:hover {
+    color: aqua;
+}
+
+a:visited {
+    color: hotpink;
+}
+
+.content {
+    background-color: #ffffff;
+    
 }
 
 footer {
     background-color: #666666;
+    padding: 20px;
+    border-top: solid 8px #4aaaa5;
+  
+
 }
