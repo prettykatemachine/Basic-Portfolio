@@ -4,6 +4,7 @@ header {
     padding: 44px 0px 44px 0px;
     border-bottom: 1px solid;
     margin: -6px;
+    
 	
 }
 
@@ -21,7 +22,7 @@ h1 {
 	font-size: 32px;
         margin-left: 100px;
         margin-top: 8px;
-        padding: 2px;
+        padding: 8px;
 }
 
 ul {
@@ -120,13 +121,14 @@ a:visited {
     height: 170px;
 }
 
-.desc {
+.banner {
     position: absolute ;
     top: 100px;
     background-color: #4aaaa5;
     width: 100%;
     padding-top: 7%;
     padding-bottom: 7%;
+    margin: 4px;
 
 }
 
@@ -166,6 +168,7 @@ footer {
     background-color: #666666;
     padding: 20px;
     border-top: solid 8px #4aaaa5;
-  
-
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
